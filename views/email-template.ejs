@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boost Your Hotel's Online Presence</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    .email-container {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #effabc;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    .email-header {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .email-header h1 {
+      color: #2c3e50;
+      font-size: 24px;
+      margin: 0;
+    }
+    .email-body {
+      color: #333;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    .email-body h3 {
+      color: #27ae60;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .email-body p {
+      margin: 10px 0;
+    }
+    .email-footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #888;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #27ae60;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .cta-button:hover {
+      background-color: #2ecc71;
+    }
+    .pricing {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .pricing h4 {
+      color: #e74c3c;
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="email-header">
+      <h1>Elevate Your Hotel’s Online Presence with a Custom Website</h1>
+    </div>
+    <div class="email-body">
+      <p>Dear <%= clientName %>,</p>
+      <p>I hope this message finds you well. I’m reaching out to share a valuable opportunity to improve your business’s visibility and boost bookings through a professional and user-friendly website.</p>
+
+      <p>As the world continues to shift towards digital, having a website is no longer optional – it’s essential for attracting new guests and staying competitive in the hospitality industry. Many hotels and guest houses are missing out on valuable bookings simply because they don’t have an online presence.</p>
+
+      <h3>Why a Website is Important for Your Hotel:</h3>
+      <ul>
+        <li><strong>Increase Visibility:</strong> Having a website helps potential guests find your hotel on search engines, leading to more bookings.</li>
+        <li><strong>Enhance Guest Experience:</strong> Guests expect to be able to check availability, view photos, and book online. A website provides this convenience.</li>
+        <li><strong>Professional Image:</strong> A modern website conveys professionalism and builds trust with potential guests.</li>
+        <li><strong>Boost Bookings:</strong> A website with an integrated booking system makes it easier for guests to make reservations directly, without relying on third-party services.</li>
+      </ul>
+
+      <h3>Check Out a Live Demo:</h3>
+      <p>To give you an idea of how a professional website can transform your business, I’ve created a demo website for Eagles Views Guest House, which showcases all the essential features that will help you attract more guests:</p>
+      <p><a href="https://eagleview-production.up.railway.app/" class="cta-button" target="_blank">View the Demo Website</a></p>
+
+      <h3>Website Features:</h3>
+      <ul>
+        <li><strong>Custom Design</strong> to reflect your brand and values</li>
+        <li><strong>Online Booking System</strong> to streamline the reservation process</li>
+        <li><strong>Gallery & Testimonials</strong> to showcase your hotel’s best features and happy guests</li>
+        <li><strong>Contact Page</strong> to make it easy for guests to get in touch</li>
+        <li><strong>SEO Optimization</strong> to help you rank higher in search engines</li>
+      </ul>
+
+      <h3>Cost Breakdown for Your Website:</h3>
+      <div class="pricing">
+        <p><strong>Website Development (Custom Design, Booking System, Gallery, etc.):</strong> <%= projectCost %> ZAR</p>
+        <p><strong>SEO Optimization:</strong> Included</p>
+        <p><strong>Maintenance and Updates (Optional):</strong> Contact me for a custom quote</p>
+      </div>
+
+      <h3>Let’s Talk About Your Website:</h3>
+      <p>If you’re interested in learning more about how a website can benefit your hotel or guest house, I’d be happy to discuss your needs and provide a personalized quote. A website tailored to your business could be the next step toward growing your brand and increasing bookings.</p>
+
+      <p>Feel free to reply to this email, or you can contact me directly at:</p>
+      <p><strong>Your Name:</strong> Kgotatso Nelson Mohlala<br>
+         <strong>Phone:</strong> 082 962 0311<br>
+         <strong>Email:</strong> nelsonmohlala617@gmail.com</p>
+
+      <p>Looking forward to the opportunity to work with you and help take your business to the next level!</p>
+
+      <p>Best regards,<br> Kgotatso Nelson Mohlala<br> <%= yourCompanyName %></p>
+    </div>
+    <div class="email-footer">
+      <p>&copy; <%= new Date().getFullYear() %> <%= yourCompanyName %>. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
