@@ -14,7 +14,7 @@ app.set('views', path.join(__dirname, 'views'));
 // Dummy data for the email
 const emailData = {
   clientName: 'Sir or Madam', // Replace with dynamic data
-  projectCost: '4,500',  // Replace with dynamic cost
+  projectCost: 'From 2,500',  // Replace with dynamic cost
   yourName: 'Kgotatso Nelson Mohlala',
   yourContact: '082 962 0311',
   yourEmail: 'nelsonmohlala617@gmail.com',
@@ -38,14 +38,15 @@ app.get('/send-email', (req, res) => {
       service: 'gmail', // Use your email provider (e.g., Gmail, Outlook)
       auth: {
         user: 'moruditech@gmail.com',  // Your email here
-        pass: 'yrhhwzzzvfwvobri'  // Your app password here (no spaces)
+        pass: 'yrhh wzzz vfwv obri'
+  // Your app password here (no spaces)
       },
     });
 
     // Define the email options
     const mailOptions = {
       from: 'moruditech@gmail.com',
-      to: ' thatchhavenguesthouse@gmail.com',  // Replace with recipient's email address
+      to: 'ledumolodge@gmail.com',  // Replace with recipient's email address
       subject: 'Enhance Your Business with a Modern Website – Boost Bookings and Visibility!',
       html: str,  // The rendered HTML content from the EJS template
     };
